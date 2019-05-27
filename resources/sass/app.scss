@@ -1,0 +1,92 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+//Restaurante
+.titulo {
+    text-align: center;
+}
+
+.categoraRestaurante {
+    color: red;
+}
+
+.nombreRestaurante {
+    font-weight: bold;
+}
+
+.ver-mas {
+    width: 31%;
+    float: right;
+    position: relative;
+}
+
+.horario {
+    position: relative;
+    display: inline;
+}
+
+//BAR
+
+.titulo_bar {
+    text-align: center;
+    color: white;
+}
+
+.fondo {
+    background: #343434;
+}
+
+.datos_bar {
+    color: white;
+}
+
+.border {
+    border-top: 1px solid #f8fafc;
+}
+
+//Vista
+
+.vista {
+    text-align: center;
+    color: red;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 115px;
+    z-index: 1;
+}
+
+.potada {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+}
+
+.info {
+    position: relative;
+    top: 34px;
+}
+
+.info2 {
+    position: relative;
+    top: 41px;
+}
+
+.linea {
+    border-left: 1px solid;
+}
+
+// class
+.style {
+    overflow-y: scroll;
+    max-height: 100vh;
+}
